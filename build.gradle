@@ -1,5 +1,5 @@
 group 'fr.minuskube.inv'
-version '1.2.7'
+version '1.2.8'
 
 apply plugin: 'java'
 apply plugin: 'maven'
@@ -37,6 +37,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    implementation 'com.github.ImFound:SmartInvs:Tag'
 }
 
 jar {
